@@ -15,5 +15,5 @@ class anime():
         score = 0.0
         for i in range(0, len(self.score_per_section)):
             score = score + self.score_per_section[i] * self.episodes_per_section[i]
-        score = score // self.number_of_episodes()
+        score = score / self.number_of_episodes()
         return score
