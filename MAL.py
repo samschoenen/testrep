@@ -88,6 +88,22 @@ CodeGeass.episodes_per_section = [25, 25]
 CodeGeass.score_per_section = [15, 15]
 shows.append(CodeGeass)
 
+Steinsgate = anime()
+Steinsgate.name = "Steins;gate"
+Steinsgate.story_genre = "Thriller"
+Steinsgate.setting_genre = "Science Fiction"
+Steinsgate.score_per_section  = [15]
+Steinsgate.episodes_per_section = [24]
+shows.append(Steinsgate)
+
+Steinsgate_plus = anime()
+Steinsgate_plus.name = "Steins;gate series"
+Steinsgate_plus.story_genre = "Thriller"
+Steinsgate_plus.setting_genre = "Science Fiction"
+Steinsgate_plus.score_per_section  = [15, 12, 11, 13, 12]
+Steinsgate_plus.episodes_per_section = [24, 23, 1, 2, 1]
+shows.append(Steinsgate_plus)
+
 Monogatari = anime()
 Monogatari.name = "Monogatari series"
 Monogatari.episodes_per_section = [15]
